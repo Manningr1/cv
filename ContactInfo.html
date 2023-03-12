@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Contact Info</title>
+</head>
+<body>
+    <h1>My Contact Info</h1>
+    <p>First.Last@XXXXXX.COM</p>
+    <p>(912) 555-1212</p>
+    <p>101 Main St.  Anytown, State 99999</p>
+    <hr>
+    <form action="mailto:abc@123.com" method="post" enctype="text/plain">  
+        <!-- When you click Submit it should autmoatically pull in all data to the email -->
+        <!-- But it doesn't on my work PC-->
+        <label>Your Name</label>
+        <input type="text" name="yourName">
+        <br>
+        <label>Your Email</label>
+        <input type="email" name="yourEmail">
+        <br>
+        <label>Your Message</label>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
